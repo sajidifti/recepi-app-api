@@ -151,7 +151,7 @@ class PrivateRecipeApiTests(TestCase):
             user=self.user,
             title="Sample recipe title",
             link="https://example.com/recipe.pdf",
-            description="New recipe description",
+            description="Sample recipe description.",
         )
 
         payload = {
